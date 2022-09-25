@@ -11,7 +11,7 @@ public class DeliveryProcess {
 
     public void order(DeliveryRequest deliveryRequest) {
         if(deliveryRequest.isOrderAcceptation()) {
-            store.process((Food2Door.Supplier) supplier);
+            store.process((supplier);
             System.out.println("Everything correct, please wait for delivery");
         }
         else {
